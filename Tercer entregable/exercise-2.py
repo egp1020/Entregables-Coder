@@ -8,10 +8,12 @@
 # Welcome
 print("Welcome to you odd program: ")
 
-# Get the number.
-odd = False
 
-while not(odd): # False will turn into True, just a semantics issue.
+# False will turn into True, just a semantics issue.
+odd = False
+while not(odd):
+    
+    # Get the number.
     u_answer = input("""Write your number, I'll check if its odd. 
 I'll let you go when you write an odd number: """) # Gets the user number.
 
