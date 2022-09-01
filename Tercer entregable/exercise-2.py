@@ -15,11 +15,14 @@ while not(odd): # False will turn into True, just a semantics issue.
     u_answer = input("""Write your number, I'll check if its odd. 
 I'll let you go when you write an odd number: """) # Gets the user number.
 
-    if u_answer.isdigit(): # Checks if it's a digit.
+    # Checks if it's a digit.
+    if u_answer.isdigit(): 
         if int(u_answer) % 2 == 1:
             print("\nIt's odd. You win\n")
             odd = True
         else: 
             print("\nIt's not odd\n")
-    else: # In the case it is an ascii.
+            
+    # In the case it is an ascii.
+    else: 
         print("\nThis is not even a number!\n")
